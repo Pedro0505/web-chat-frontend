@@ -1,7 +1,7 @@
 
 # Web Chat
 
-Resolvi me aventurar um pouco no mundo dos WebSockets e fazer um real time chat para meu frontend decidi usar React com Context Api, e ViteJs para instalar as dependências de desenvolvimento.
+Resolvi me aventurar um pouco no mundo dos WebSockets e fazer um real time chat para meu frontend decidi usar React com Context Api.
 
 <br />
 
@@ -19,21 +19,13 @@ Entre no diretório do projeto
   cd web-chat-front
 ```
 
-Instale as dependências
-
-```bash
-  cd client
-  npm install
-```
-
 Inicie o servidor:
   - Dentro da pasta client rode: 
 
 ```bash
-  npm run dev
+  npm start
 ```
 
 ## Referência
 
  - [React.Js](https://pt-br.reactjs.org)
- - [Vite.JS](https://vitejs.dev)
