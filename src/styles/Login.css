@@ -1,0 +1,104 @@
+.form-login {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 400px;
+}
+
+.form-login #user, .form-login #room {
+  background-color: #4f4f5a;
+  color: #fff;
+  border: none;
+  padding: 10px;
+}
+
+.form-login #user::-webkit-input-placeholder, .form-login #room::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.form-login #user:-ms-input-placeholder, .form-login #room:-ms-input-placeholder {
+  color: #fff;
+}
+
+.form-login #user::-ms-input-placeholder, .form-login #room::-ms-input-placeholder {
+  color: #fff;
+}
+
+.form-login #user::placeholder, .form-login #room::placeholder {
+  color: #fff;
+}
+
+.form-login #user:focus, .form-login #room:focus {
+  outline-color: #7f5af0;
+  background-color: #1f1f23;
+  outline-width: 1px;
+  color: white;
+}
+
+.label-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 20px 0;
+}
+
+.login-btn {
+  background-color: #7f5af0;
+  border: none;
+  color: white;
+  font-weight: 900;
+  padding: 10px 5px;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 400px;
+  margin-top: 15px;
+}
+
+.login-btn:disabled {
+  background-color: gray;
+  cursor: auto;
+}
+
+.login-container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-container img {
+  width: 25vw;
+  height: 25vw;
+  margin-right: 100px;
+}
+
+@media screen and (max-width: 794px) {
+  .login-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .login-container img {
+    width: 40vw;
+    height: 40vw;
+  }
+}
+/*# sourceMappingURL=Login.css.map */

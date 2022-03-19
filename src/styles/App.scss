@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+@import "node_modules/bootstrap/scss/bootstrap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  background-color: #18181b;
+}
+
+.main-container {
+  height: 100vh;
+}

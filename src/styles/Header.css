@@ -1,0 +1,38 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: #dedee3;
+  padding: 13px 0;
+}
+
+header h1 {
+  font-size: 1.3em;
+}
+
+.btn-icons {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  height: 30px;
+}
+
+.btn-icons .icons {
+  color: #dedee3;
+  font-size: 1.8em;
+}
+/*# sourceMappingURL=Header.css.map */
