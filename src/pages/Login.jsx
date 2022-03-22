@@ -25,7 +25,7 @@ function Login() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    const socket = io.connect('https://web-chat-backend.herokuapp.com/');
+    const socket = io.connect(process.env.REACT_APP_BACK_URL);
     socket.emit('join_room', room);
     if (user !== '' && room !== '') {
       const info = { socket, user, room };
