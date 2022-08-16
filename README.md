@@ -20,12 +20,14 @@ Entre no diretório do projeto
 ```
 
 Inicie o servidor:
-  - Dentro da pasta client rode: 
 
 ```bash
   npm start
 ```
 
-## Referência
+# Stacks
 
- - [React.Js](https://pt-br.reactjs.org)
+ - React.Js
+ - Sass
+ - Socket.io Client
+ - Dayjs
