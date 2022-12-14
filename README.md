@@ -19,7 +19,13 @@ Entre no diretório do projeto
   cd web-chat-front
 ```
 
-Inicie o servidor:
+Instale as dependências:
+
+```bash
+  npm install
+```
+
+Inicie o projeto:
 
 ```bash
   npm start
